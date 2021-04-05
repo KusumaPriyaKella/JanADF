@@ -1,0 +1,17 @@
+{
+	"name": "SqlServerLS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=DESKTOP-KFRJFL3\\KUSUMA;initial catalog=AdventureWorksDW2012",
+			"userName": "DESKTOP-KFRJFL3\\KUSUMA PRIYA KELLA",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxMmMwOWUwMC03MTlmLTQ1MWUtOTY3My0wNWNkMTM2OTk0ZWYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "OnPremIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
