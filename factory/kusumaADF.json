@@ -1,0 +1,9 @@
+{
+	"name": "kusumaADF",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7170d4b0-adea-4298-9b6e-52f172c7b1d8",
+		"tenantId": "ab2b1edb-bb0b-4b17-bdec-958e072106b5"
+	}
+}
