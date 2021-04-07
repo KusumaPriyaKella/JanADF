@@ -1,0 +1,12 @@
+{
+	"name": "AzureSqlTableEx6",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlsampleDBLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
