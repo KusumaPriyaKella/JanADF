@@ -1,0 +1,17 @@
+{
+	"name": "SqlServerEX2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=DESKTOP-KFRJFL3\\KUSUMA;initial catalog=AdventureWorksDW2012",
+			"userName": "DESKTOP-KFRJFL3\\KUSUMA PRIYA KELLA",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlOTkzZDFhNy0yZTliLTRjMzEtYjljMS1mYzdjMzY0Y2ZmNTQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "OnPremiseIREX2",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
