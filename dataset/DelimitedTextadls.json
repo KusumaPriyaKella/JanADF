@@ -1,0 +1,22 @@
+{
+	"name": "DelimitedTextadls",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStoreEx2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureDataLakeStoreLocation",
+				"folderPath": "kusuex2"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
