@@ -15,6 +15,42 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlsampleDBLS'"
 		},
+		"SqlServerEX2_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'SqlServerEX2'"
+		},
+		"SqlServerEX2_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'SqlServerEX2'"
+		},
+		"AzureDataLakeStoreEx2_servicePrincipalKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'servicePrincipalKey' of 'AzureDataLakeStoreEx2'"
+		},
+		"SqlServerEX2_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "DESKTOP-KFRJFL3\\KUSUMA PRIYA KELLA"
+		},
+		"AzureDataLakeStoreEx2_properties_typeProperties_dataLakeStoreUri": {
+			"type": "string",
+			"defaultValue": "https://kusudsgen1.azuredatalakestore.net/webhdfs/v1"
+		},
+		"AzureDataLakeStoreEx2_properties_typeProperties_servicePrincipalId": {
+			"type": "string",
+			"defaultValue": "dbb6165e-efce-4f66-b335-96526016b8f1"
+		},
+		"AzureDataLakeStoreEx2_properties_typeProperties_tenant": {
+			"type": "string",
+			"defaultValue": "ab2b1edb-bb0b-4b17-bdec-958e072106b5"
+		},
+		"AzureDataLakeStoreEx2_properties_typeProperties_subscriptionId": {
+			"type": "string",
+			"defaultValue": "26b26183-407e-4cf0-90cb-246cde385358"
+		},
+		"AzureDataLakeStoreEx2_properties_typeProperties_resourceGroupName": {
+			"type": "string",
+			"defaultValue": "kusuLTIRG"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -47,6 +83,33 @@
 					},
 					"AzureSqlsampleDBLS_connectionString": {
 						"value": "[parameters('AzureSqlsampleDBLS_connectionString')]"
+					},
+					"AzureDataLakeStoreEx2_servicePrincipalKey": {
+						"value": "[parameters('AzureDataLakeStoreEx2_servicePrincipalKey')]"
+					},
+					"SqlServerEX2_connectionString": {
+						"value": "[parameters('SqlServerEX2_connectionString')]"
+					},
+					"SqlServerEX2_password": {
+						"value": "[parameters('SqlServerEX2_password')]"
+					},
+					"AzureDataLakeStoreEx2_properties_typeProperties_dataLakeStoreUri": {
+						"value": "[parameters('AzureDataLakeStoreEx2_properties_typeProperties_dataLakeStoreUri')]"
+					},
+					"AzureDataLakeStoreEx2_properties_typeProperties_servicePrincipalId": {
+						"value": "[parameters('AzureDataLakeStoreEx2_properties_typeProperties_servicePrincipalId')]"
+					},
+					"AzureDataLakeStoreEx2_properties_typeProperties_tenant": {
+						"value": "[parameters('AzureDataLakeStoreEx2_properties_typeProperties_tenant')]"
+					},
+					"AzureDataLakeStoreEx2_properties_typeProperties_subscriptionId": {
+						"value": "[parameters('AzureDataLakeStoreEx2_properties_typeProperties_subscriptionId')]"
+					},
+					"AzureDataLakeStoreEx2_properties_typeProperties_resourceGroupName": {
+						"value": "[parameters('AzureDataLakeStoreEx2_properties_typeProperties_resourceGroupName')]"
+					},
+					"SqlServerEX2_properties_typeProperties_userName": {
+						"value": "[parameters('SqlServerEX2_properties_typeProperties_userName')]"
 					}
 				}
 			},

@@ -10,6 +10,33 @@
 		},
 		"AzureSqlsampleDBLS_connectionString": {
 			"value": ""
+		},
+		"SqlServerEX2_connectionString": {
+			"value": ""
+		},
+		"SqlServerEX2_password": {
+			"value": ""
+		},
+		"AzureDataLakeStoreEx2_servicePrincipalKey": {
+			"value": ""
+		},
+		"SqlServerEX2_properties_typeProperties_userName": {
+			"value": "DESKTOP-KFRJFL3\\KUSUMA PRIYA KELLA"
+		},
+		"AzureDataLakeStoreEx2_properties_typeProperties_dataLakeStoreUri": {
+			"value": "https://kusudsgen1.azuredatalakestore.net/webhdfs/v1"
+		},
+		"AzureDataLakeStoreEx2_properties_typeProperties_servicePrincipalId": {
+			"value": "dbb6165e-efce-4f66-b335-96526016b8f1"
+		},
+		"AzureDataLakeStoreEx2_properties_typeProperties_tenant": {
+			"value": "ab2b1edb-bb0b-4b17-bdec-958e072106b5"
+		},
+		"AzureDataLakeStoreEx2_properties_typeProperties_subscriptionId": {
+			"value": "26b26183-407e-4cf0-90cb-246cde385358"
+		},
+		"AzureDataLakeStoreEx2_properties_typeProperties_resourceGroupName": {
+			"value": "kusuLTIRG"
 		}
 	}
 }
