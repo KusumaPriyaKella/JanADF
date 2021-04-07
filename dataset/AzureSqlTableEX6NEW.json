@@ -1,0 +1,16 @@
+{
+	"name": "AzureSqlTableEX6NEW",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlemptyDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DimCustomer"
+		}
+	}
+}
