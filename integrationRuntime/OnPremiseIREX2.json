@@ -1,0 +1,6 @@
+{
+	"name": "OnPremiseIREX2",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
