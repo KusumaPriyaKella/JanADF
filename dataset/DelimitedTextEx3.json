@@ -1,0 +1,21 @@
+{
+	"name": "DelimitedTextEx3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageEx3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "mydata"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
