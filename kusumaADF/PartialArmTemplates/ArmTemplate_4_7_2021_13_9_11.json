@@ -1,0 +1,37 @@
+{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"type": "string",
+			"metadata": "Data Factory name",
+			"defaultValue": "kusumaADF"
+		}
+	},
+	"variables": {
+		"factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
+	},
+	"resources": [
+		{
+			"name": "[concat(parameters('factoryName'), '/AzureDataLakeStoreEx2')]",
+			"type": "Microsoft.DataFactory/factories/linkedServices",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"type": "AzureDataLakeStore",
+				"typeProperties": {
+					"dataLakeStoreUri": "https://kusudsgen1.azuredatalakestore.net/webhdfs/v1",
+					"servicePrincipalId": "dbb6165e-efce-4f66-b335-96526016b8f1",
+					"servicePrincipalKey": {
+						"type": "SecureString",
+						"value": "**********"
+					},
+					"tenant": "ab2b1edb-bb0b-4b17-bdec-958e072106b5",
+					"subscriptionId": "26b26183-407e-4cf0-90cb-246cde385358",
+					"resourceGroupName": "kusuLTIRG"
+				}
+			},
+			"dependsOn": []
+		}
+	]
+}
